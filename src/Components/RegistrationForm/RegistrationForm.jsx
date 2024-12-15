@@ -38,7 +38,7 @@ export default function RegistrationForm() {
         if (isValid) {
             buttonRef.current.focus()
         }
-    }, [isValid])
+    })
 
     return (
         <>
